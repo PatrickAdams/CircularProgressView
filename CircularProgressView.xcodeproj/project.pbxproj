@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F725CDB91B5435BB00FEA199 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F725CDB81B5435BB00FEA199 /* AppDelegate.swift */; };
+		F725CDBB1B5435BB00FEA199 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F725CDBA1B5435BB00FEA199 /* ViewController.swift */; };
+		F725CDBE1B5435BB00FEA199 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F725CDBC1B5435BB00FEA199 /* Main.storyboard */; };
+		F725CDC01B5435BB00FEA199 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F725CDBF1B5435BB00FEA199 /* Images.xcassets */; };
+		F725CDC31B5435BB00FEA199 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F725CDC11B5435BB00FEA199 /* LaunchScreen.xib */; };
+		F725CDCF1B5435BB00FEA199 /* CircularProgressViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F725CDCE1B5435BB00FEA199 /* CircularProgressViewTests.swift */; };
+		F725CDD91B5435C600FEA199 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F725CDD81B5435C600FEA199 /* CircularProgressView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F725CDC91B5435BB00FEA199 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F725CDAB1B5435BB00FEA199 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F725CDB21B5435BB00FEA199;
+			remoteInfo = CircularProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F725CDB31B5435BB00FEA199 /* CircularProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F725CDB71B5435BB00FEA199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F725CDB81B5435BB00FEA199 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F725CDBA1B5435BB00FEA199 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F725CDBD1B5435BB00FEA199 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F725CDBF1B5435BB00FEA199 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F725CDC21B5435BB00FEA199 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F725CDC81B5435BB00FEA199 /* CircularProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F725CDCD1B5435BB00FEA199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F725CDCE1B5435BB00FEA199 /* CircularProgressViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressViewTests.swift; sourceTree = "<group>"; };
+		F725CDD81B5435C600FEA199 /* CircularProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F725CDB01B5435BB00FEA199 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F725CDC51B5435BB00FEA199 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F725CDAA1B5435BB00FEA199 = {
+			isa = PBXGroup;
+			children = (
+				F725CDB51B5435BB00FEA199 /* CircularProgressView */,
+				F725CDCB1B5435BB00FEA199 /* CircularProgressViewTests */,
+				F725CDB41B5435BB00FEA199 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F725CDB41B5435BB00FEA199 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F725CDB31B5435BB00FEA199 /* CircularProgressView.app */,
+				F725CDC81B5435BB00FEA199 /* CircularProgressViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F725CDB51B5435BB00FEA199 /* CircularProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				F725CDB81B5435BB00FEA199 /* AppDelegate.swift */,
+				F725CDBA1B5435BB00FEA199 /* ViewController.swift */,
+				F725CDD81B5435C600FEA199 /* CircularProgressView.swift */,
+				F725CDBC1B5435BB00FEA199 /* Main.storyboard */,
+				F725CDBF1B5435BB00FEA199 /* Images.xcassets */,
+				F725CDC11B5435BB00FEA199 /* LaunchScreen.xib */,
+				F725CDB61B5435BB00FEA199 /* Supporting Files */,
+			);
+			path = CircularProgressView;
+			sourceTree = "<group>";
+		};
+		F725CDB61B5435BB00FEA199 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F725CDB71B5435BB00FEA199 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F725CDCB1B5435BB00FEA199 /* CircularProgressViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F725CDCE1B5435BB00FEA199 /* CircularProgressViewTests.swift */,
+				F725CDCC1B5435BB00FEA199 /* Supporting Files */,
+			);
+			path = CircularProgressViewTests;
+			sourceTree = "<group>";
+		};
+		F725CDCC1B5435BB00FEA199 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F725CDCD1B5435BB00FEA199 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F725CDB21B5435BB00FEA199 /* CircularProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F725CDD21B5435BB00FEA199 /* Build configuration list for PBXNativeTarget "CircularProgressView" */;
+			buildPhases = (
+				F725CDAF1B5435BB00FEA199 /* Sources */,
+				F725CDB01B5435BB00FEA199 /* Frameworks */,
+				F725CDB11B5435BB00FEA199 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircularProgressView;
+			productName = CircularProgressView;
+			productReference = F725CDB31B5435BB00FEA199 /* CircularProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F725CDC71B5435BB00FEA199 /* CircularProgressViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F725CDD51B5435BB00FEA199 /* Build configuration list for PBXNativeTarget "CircularProgressViewTests" */;
+			buildPhases = (
+				F725CDC41B5435BB00FEA199 /* Sources */,
+				F725CDC51B5435BB00FEA199 /* Frameworks */,
+				F725CDC61B5435BB00FEA199 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F725CDCA1B5435BB00FEA199 /* PBXTargetDependency */,
+			);
+			name = CircularProgressViewTests;
+			productName = CircularProgressViewTests;
+			productReference = F725CDC81B5435BB00FEA199 /* CircularProgressViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F725CDAB1B5435BB00FEA199 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Patrick Adams";
+				TargetAttributes = {
+					F725CDB21B5435BB00FEA199 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F725CDC71B5435BB00FEA199 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F725CDB21B5435BB00FEA199;
+					};
+				};
+			};
+			buildConfigurationList = F725CDAE1B5435BB00FEA199 /* Build configuration list for PBXProject "CircularProgressView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F725CDAA1B5435BB00FEA199;
+			productRefGroup = F725CDB41B5435BB00FEA199 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F725CDB21B5435BB00FEA199 /* CircularProgressView */,
+				F725CDC71B5435BB00FEA199 /* CircularProgressViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F725CDB11B5435BB00FEA199 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F725CDBE1B5435BB00FEA199 /* Main.storyboard in Resources */,
+				F725CDC31B5435BB00FEA199 /* LaunchScreen.xib in Resources */,
+				F725CDC01B5435BB00FEA199 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F725CDC61B5435BB00FEA199 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F725CDAF1B5435BB00FEA199 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F725CDBB1B5435BB00FEA199 /* ViewController.swift in Sources */,
+				F725CDB91B5435BB00FEA199 /* AppDelegate.swift in Sources */,
+				F725CDD91B5435C600FEA199 /* CircularProgressView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F725CDC41B5435BB00FEA199 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F725CDCF1B5435BB00FEA199 /* CircularProgressViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F725CDCA1B5435BB00FEA199 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F725CDB21B5435BB00FEA199 /* CircularProgressView */;
+			targetProxy = F725CDC91B5435BB00FEA199 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F725CDBC1B5435BB00FEA199 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F725CDBD1B5435BB00FEA199 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F725CDC11B5435BB00FEA199 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F725CDC21B5435BB00FEA199 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F725CDD01B5435BB00FEA199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F725CDD11B5435BB00FEA199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F725CDD31B5435BB00FEA199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CircularProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F725CDD41B5435BB00FEA199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CircularProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F725CDD61B5435BB00FEA199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CircularProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircularProgressView.app/CircularProgressView";
+			};
+			name = Debug;
+		};
+		F725CDD71B5435BB00FEA199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CircularProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircularProgressView.app/CircularProgressView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F725CDAE1B5435BB00FEA199 /* Build configuration list for PBXProject "CircularProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F725CDD01B5435BB00FEA199 /* Debug */,
+				F725CDD11B5435BB00FEA199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F725CDD21B5435BB00FEA199 /* Build configuration list for PBXNativeTarget "CircularProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F725CDD31B5435BB00FEA199 /* Debug */,
+				F725CDD41B5435BB00FEA199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F725CDD51B5435BB00FEA199 /* Build configuration list for PBXNativeTarget "CircularProgressViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F725CDD61B5435BB00FEA199 /* Debug */,
+				F725CDD71B5435BB00FEA199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F725CDAB1B5435BB00FEA199 /* Project object */;
+}
